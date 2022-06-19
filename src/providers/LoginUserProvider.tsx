@@ -9,7 +9,7 @@ import {
 
 import { User } from "../types/api/users";
 
-type LoginUser = User & { inAdmin: boolean };
+type LoginUser = User & { isAdmin: boolean };
 
 export type LoginUserContextType = {
   loginUser: LoginUser | null;
